@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ricciaro - Where comfort comes with trend</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Ricciaro</h1>
+    <p class="tagline">Where comfort comes with trend</p>
+    <nav>
+      <a href="#products">Shop</a>
+      <a href="#cart">Cart</a>
+      <a href="#admin">Admin</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="products">
+      <h2>Our Collection</h2>
+      <div class="product-list" id="product-list">
+        <!-- Products will be loaded here by JS -->
+      </div>
+    </section>
+
+    <section id="cart">
+      <h2>Your Cart</h2>
+      <div id="cart-items"></div>
+      <button id="checkout-btn">Checkout</button>
+    </section>
+
+    <section id="admin">
+      <h2>Admin Panel</h2>
+      <form id="add-product-form">
+        <input type="text" id="product-name" placeholder="Product Name" required />
+        <input type="number" id="product-price" placeholder="Price" required />
+        <input type="number" id="product-stock" placeholder="Stock" required />
+        <input type="text" id="product-image" placeholder="Image Path" required />
+        <button type="submit">Add Product</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Ricciaro. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
