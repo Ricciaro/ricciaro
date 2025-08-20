@@ -1,6 +1,6 @@
 # Ricciaro - Shoe Brand Website
 
-This is the official website for **Ricciaro**, where comfort comes with trend.
+This is the official website for **Ricciaro**, where comfort comes with Italian trend.
 
 ## Features
 - Product catalog with images
